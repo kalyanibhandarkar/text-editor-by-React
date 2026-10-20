@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import myImg from '/img.jpeg'
 import './App.css'
 
 const App =()=>{
@@ -12,9 +10,11 @@ const App =()=>{
          <h3>TEXT EDITOR</h3>
         
         <div class="box">
-         <div class="b"></div>
-         <div class="b"></div>
-        </div>
+         <div class="b">
+          <img src= {myImg} style="width:50% />
+         </div>
+         <div class= "b"> </div>
+        </div> 
 
       </div>
 
