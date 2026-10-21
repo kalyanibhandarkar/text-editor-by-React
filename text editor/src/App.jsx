@@ -6,20 +6,23 @@ const App =()=>{
   return (
     <div className="d1">
 
-      <div class="text">
-         <h3>TEXT EDITOR</h3>
-        
-        <div class="box">
-         <div class="b">
-          <img src= {myImg} style="width:50% />
+      <h3>TEXT EDITOR</h3>
+      <div className="editor">
+      <div className="box">
+        <img src= {myImg} width="50%" height="90%" />
+        <div className="b">
+          {/* <div className= "text-block">
+            </div> */}
+          </div>
+          
          </div>
-         <div class= "b"> </div>
+        </div>
         </div> 
 
-      </div>
+      
 
 
-    </div>
+    
   )
   
 
