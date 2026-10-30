@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "text-editor",
   "private": true,
   "version": "0.0.0",
@@ -23,5 +24,9 @@
     "eslint-plugin-react-refresh": "^0.5.6",
     "globals": "^17.12.0",
     "vite": "^8.3.0"
+=======
+  "dependencies": {
+    "vite": "^8.3.4"
+>>>>>>> f22cc54594980eda93465dd2dfab5b5b512d1e09
   }
 }
