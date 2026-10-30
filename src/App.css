@@ -59,6 +59,9 @@ button:focus{
   border:none;
   color:rgb(177, 171, 171);
   padding:5px;
+  /* font-style:normal !important;
+  text-decoration: none !important; */
+
 }
 
 .textbox:focus{
